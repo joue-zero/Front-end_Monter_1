@@ -62,6 +62,11 @@ body {
 .page .bg-image img {
   width: 100%
 }
+@media (min-width: 768px) {
+  .page .bg-image img {
+    width: auto
+  }
+}
 .page .text {
   padding: 15px ;
 }
@@ -105,7 +110,7 @@ body {
   }
   .page .text {
     margin-right: 10%;
-    padding-left: 5% 
+    padding-left: 5%
   }
   .page .bg-image,
   .page .text{
